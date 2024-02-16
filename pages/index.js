@@ -3,6 +3,7 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillYoutube,
+  AiFillGithub,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
@@ -19,6 +20,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import sportApp from "../public/sport-app.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -60,14 +62,18 @@ export default function Home() {
               Developer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              services for programming needs. Join me down below and let&apos;s get
-              cracking!
+              services for programming needs. Join me down below and let&apos;s
+              get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               {/* <AiFillTwitterCircle /> */}
               <a href="https://www.linkedin.com/in/ekachai-keawman/">
                 <AiFillLinkedin />
               </a>
+              <a href="https://github.com/ekachaikeaw">
+                <AiFillGithub />
+              </a>
+
               {/* <AiFillYoutube /> */}
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
@@ -79,10 +85,10 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a self-taught developer, I&apos;ve
-              done remote work for personal group project and collaborated with
-              talanted people to create digital products for both business and
-              consumer use.
+              Since the beginning of my journey as a self-taught developer,
+              I&apos;ve done remote work for personal group project and
+              collaborated with talanted people to create digital products for
+              both business and consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a deep of services programming and problem-solving.
@@ -109,8 +115,8 @@ export default function Home() {
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great application? Let&apos;s make
-                it a reality and strong system.
+                Do you have an idea for your next great application? Let&apos;s
+                make it a reality and strong system.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
               <p className="text-gray-800 py-1">Node.js</p>
@@ -126,9 +132,7 @@ export default function Home() {
                 move forward and rapid learn for it based on my domain
                 knowledge.
               </p>
-              <h4 className="py-4 text-teal-600">
-                Design Tools I Use (Basic)
-              </h4>
+              <h4 className="py-4 text-teal-600">Design Tools I Use (Basic)</h4>
               <p className="text-gray-800 py-1">Java</p>
               <p className="text-gray-800 py-1">Python</p>
               <p className="text-gray-800 py-1">Figma</p>
@@ -140,10 +144,10 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Since the beginning of my journey as a self-taught developer, I&apos;ve
-              done remote work for personal group project and collaborated with
-              talanted people to create digital products for both business and
-              consumer use.
+              Since the beginning of my journey as a self-taught developer,
+              I&apos;ve done remote work for personal group project and
+              collaborated with talanted people to create digital products for
+              both business and consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               {/*  */}
@@ -156,11 +160,10 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web1}
+                src={sportApp}
                 alt="hello"
               />
             </div>
- 
           </div>
         </section>
       </main>
